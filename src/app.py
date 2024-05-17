@@ -86,7 +86,7 @@ def main():
     </div>
     """
     st.markdown(subheader_template, unsafe_allow_html=True)
-    st.sidebar.image("download.jpeg", use_column_width=True)
+    # st.sidebar.image("download.jpeg", use_column_width=True)
 
     activity = ["Text Analysis", "Translation", "Sentiment Analysis", "About"]
     choice = st.sidebar.selectbox("Menu", activity)
